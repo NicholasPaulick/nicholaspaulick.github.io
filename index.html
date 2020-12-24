@@ -148,9 +148,12 @@ body {
 <div class="footer">
   <a href="#">Back To The Top</a>
    <a href="mailto:paulicknicholas@gmail.com">Email Me</a>
-   <a href="javascript:alert('Hello World!');">Execute JavaScript</a>
+   <button type="button"
+   onclick="document.getElementById('demo').innerHTML = Date()">
+   Click me to display Date and Time.</button>
+   <p id="demo"></p>
+   <noscript>Sorry, your browser does not support JavaScript!</noscript>
 </div>
-<noscript>Sorry, your browser does not support JavaScript!</noscript>
 
 </body>
 </html>
