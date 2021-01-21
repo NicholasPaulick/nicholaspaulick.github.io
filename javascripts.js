@@ -1,4 +1,4 @@
-function myFunction() {
+function umFunction() {
     var ums = 4;
     var dd = new Date();
     var string = " Ums As Of";
