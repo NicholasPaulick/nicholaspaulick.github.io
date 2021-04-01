@@ -1,6 +1,10 @@
 # My Website
 
-My website that holds all of my information such as projects that I am working on as well as links and descriptions of other projects that I am working.
-Hopefully this will help me get a job or into a college on day else this is a huge waste of time.
+Ok big update I guess:
 
-Wow did I get distracted. I should start working on this again and will try to during this break.
+Todo:
+1.  Update Javascript on the bottem of each page. (It doesn't do anything right now)
+2.  Check for spelling errors (Shouldn't be to many)
+3.  Replace the discontinued project with something new.
+
+This is kinda just a toss up but I should probably also change some of the CSS so the website looks a bit more visually appealing.
