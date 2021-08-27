@@ -1,8 +1,5 @@
+import * as PIXI from 'pixi.js'
+
 function Function() {
-    var ums = 4;
-    var dd = new Date();
-    var string = " Ums As Of";
-    var fullSentence = ums + string;
-    document.getElementById("num").innerHTML = fullSentence;
-    document.getElementById('date').innerHTML = dd;
+    let app = new PIXI.Application({ width: 640, height: 360 });
 }
