@@ -2,6 +2,6 @@ import * as PIXI from 'pixi.js'
 
 function Pixi() {
     let Var = "Im working on this button now."
-    window.alert(Var)
+    alert(Var)
     //let app = new PIXI.Application({ width: 640, height: 360 });
 }
