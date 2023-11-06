@@ -1,0 +1,174 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    font-weight: lighter;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav ul li {
+    padding: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+.skill {
+    margin-bottom: 10px;
+}
+.skill-bar {
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.skill-per {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #007bff;
+    position: absolute;
+    transition: width 1s ease-in-out;
+    border-radius: 5px;
+}
+.timeline {
+    position: relative;
+    padding-left: 20px;
+}
+.timeline-item {
+    margin-bottom: 20px;
+}
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #007bff;
+}
+.date {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: #0056b3;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin-bottom: 5px;
+    }
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.timeline, .projects-list, .activities-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item, .project-item, .activity-item {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 2px solid #007bff;
+    position: relative;
+}
+
+.timeline-item::before, .project-item::before, .activity-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #007bff;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+
+/* Add any additional CSS styles needed for specific page elements here */
