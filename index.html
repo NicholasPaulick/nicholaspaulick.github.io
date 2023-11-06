@@ -1,75 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicholas Paulick - Home</title>
 <style>
-    .large {
-        font-size: 50px;
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+        padding: 10px 0;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0 15px;
+    }
+    nav a:hover {
+        background-color: #555;
+    }
+    .container {
+        padding: 20px;
+    }
+    .contact {
+        margin-top: 20px;
+    }
+    .contact a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        background: #333;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .contact a:hover {
+        background: #555;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 </style>
-<head>
-    <title>Imagine</title>
-    <link rel="icon" href="Images/Icon.jpg" type = "image/gif">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
-
 <body>
-    <div class="header">
-        <h1>Nicholas Paulick</h1>
+<header>
+    <h1>Nicholas Paulick</h1>
+    <p>Software Developer, Computer Science Enthusiast</p>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a href="experience.html">Experience</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<div class="container">
+    <h2>Professional Summary</h2>
+    <p>Computer Science student at Marquette University, focusing on software development, programming languages, algorithms, and data structures. Gained experience in analyzing and documenting software requirements, creating and executing test plans, and identifying and reporting software defects as part of my internship with Badger Meter. Possess strong analytical and problem-solving abilities, attention to detail, and the ability to work effectively in a team environment.</p>
+    <div class="contact">
+        <a href="mailto:paulicknicholas@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/nicholas-paulick" target="_blank">LinkedIn</a>
     </div>
-
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="https://github.com/NicholasPaulick"target="_blank" class="right">My Github</a>
-    </div>
-
-    <div class="row">
-        <div class="side">
-            <h3>Projects</h3>
-            <a href="https://github.com/NicholasPaulick/Calculator" target="_blank">Calculator</a>
-            <br>
-            <h3>Other projects for school</h3>
-            <a href="https://github.com/NicholasPaulick/CompScience1010"target="_blank" >Computer Science Work</a>
-            <br>
-            <a href="https://github.com/NicholasPaulick/PythonChess"target="_blank" >Python Chess Game</a>
-            <br>
-            <a href="https://github.com/NicholasPaulick/TextToSpeach" target="_blank">Text To Speach</a>
-            <br>
-            p>Open a PDF file <a href="/midtermprep.pdf">example</a>.</p>
-        </div>
-        <br>
-        <div class="main">
-            <h1 class="large">This Website Is Under Construction So Stuff Might Not Work.</h1>
-            <br>
-            <h2>About Me</h2>
-            <h3>Schooling</h3>
-            <p>I graduated from Greendale High School on 6/12/2021</p>
-            <p>I am attending Marquette University for Computer Science</p>
-            <br>
-            <h3>Activities</h3>
-            <p>Programming is a hobby of mine that I hope to take into my career path.</p>
-            <p>I also play the trumpet and was in the marching band at Greendale High School.</p>
-            <br>
-            <h3>My Tech</h3>
-            <p>Desktop: Intel Xeon CPU E5-1603 2.80GHz, 16G Ram, GeForce GTX 1050 Ti. </p>
-            <p>OS: Gentoo</p>
-            <p>--</p>
-            <p>Laptop: Lenovo Thinkpad T14</p>
-            <p>OS: Windows 10</p>
-            <br>
-            <img src="Images/Capture.PNG" alt="Photo">
-        </div>
-    </div>
-    
-<div class="footer">
-    <a href="#">Back To The Top</a>
-    <a href="mailto:paulicknicholas@gmail.com">Email Me</a>
-    <button onclick="funct()">WNP</button>
-    <p id="Pixi"></p>
-    <a href="Game/index.html" target="_blank">Game</a>
-    <script type="text/javascript" src="javascripts.js"></script>
-    <noscript>Sorry, your browser does not support JavaScript!</noscript>
 </div>
-
+<footer>
+    <p>&copy; 2023 Nicholas Paulick</p>
+</footer>
 </body>
 </html>
