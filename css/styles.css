@@ -31,7 +31,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 section {
     padding: 20px;
@@ -51,7 +51,7 @@ section {
     display: block;
     height: 100%;
     width: 0;
-    background: #007bff;
+    background: #000000;
     position: absolute;
     transition: width 1s ease-in-out;
     border-radius: 5px;
@@ -70,7 +70,7 @@ section {
     top: 0;
     bottom: 0;
     width: 3px;
-    background: #007bff;
+    background: #000000;
 }
 .date {
     font-size: 0.9em;
