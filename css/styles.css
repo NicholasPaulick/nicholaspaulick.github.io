@@ -31,7 +31,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 section {
     padding: 20px;
