@@ -59,7 +59,6 @@ main {
     text-align: center;
 }
 
-/* Intro Section */
 main h2 {
     color: #333;
     padding: 10px 0;
@@ -122,4 +121,64 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Introduction effect */
+#who-i-am .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #6a11cb;
+}
+
+.bio {
+    flex: 2;
+    padding-left: 40px;
+}
+
+.bio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+/* Effects for timeline items */
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 3px solid #007bff;
+}
+
+.timeline-item h3 {
+    margin-top: 0;
 }

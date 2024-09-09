@@ -61,12 +61,11 @@ animateParticles();
 
 // Color Changing Section
 const colors = [
-    'linear-gradient(135deg, #ff7e5f, #feb47b)',
-    'linear-gradient(135deg, #6a11cb, #2575fc)',
-    'linear-gradient(135deg, #ff758c, #ff7eb3)',
-    'linear-gradient(135deg, #f12711, #f5af19)',
-    'linear-gradient(135deg, #00c6ff, #0072ff)',
-    'linear-gradient(#e66465, #9198e5)'
+    'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)',
+    'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)',
+    'radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)',
+    'linear-gradient(125deg, hsl(202deg 66% 39%) 0%, hsl(133deg 52% 55%) 41%, hsl(63deg 69% 74%) 55%, hsl(56deg 83% 72%) 57%, hsl(49deg 94% 68%) 58%, hsl(46deg 85% 61%) 63%, hsl(42deg 79% 54%) 71%, hsl(18deg 52% 42%) 84%, hsl(355deg 39% 28%) 100%)',
+    'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%)' // White
 ];
 
 let currentColorIndex = 0;
