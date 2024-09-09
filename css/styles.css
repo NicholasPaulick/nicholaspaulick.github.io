@@ -184,3 +184,74 @@ footer {
 .timeline-item h3 {
     margin-top: 0;
 }
+
+/* Projects Section */
+#projects {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-category {
+    margin-bottom: 30px;
+}
+
+.skill-category h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+    display: inline-block;
+    background: linear-gradient(to right, #0066cc, #00ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.skill-category a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.skill-category a:hover {
+    text-decoration: underline;
+}
