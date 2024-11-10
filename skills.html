@@ -21,37 +21,45 @@
         </ul>
     </nav>
     <main>
-        <section id="skills">
+        <section id="skills-showcase">
             <div class="skill-category">
-                <h2>Programming Languages</h2>
-                <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>C#</li>
-                    <li>HTML</li>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>LUA</li>
-                    <li>SQL</li>
-                </ul>
+                <h2>Languages & Technologies</h2>
+                <div class="skill-grid">
+                    <div class="skill-item">C</div>
+                    <div class="skill-item">C++</div>
+                    <div class="skill-item">C#</div>
+                    <div class="skill-item">OpenCL</div>
+                    <div class="skill-item" id="javascript-skill">JavaScript</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">HTML/CSS</div>
+                    <div class="skill-item">LUA</div>
+                    <div class="skill-item">SQL</div>
+                </div>
             </div>
+
             <div class="skill-category">
-                <h2>Technologies & Tools</h2>
-                <ul>
-                    <li>OpenCL</li>
-                    <li>Linux</li>
-                    <li>Windows</li>
-                    <li>Selenium</li>
-                    <li>GitHub</li>
-                    <li>GitLab</li>
-                    <li>Jira</li>
-                </ul>
+                <h2>Tools & Platforms</h2>
+                <div class="skill-grid">
+                    <div class="skill-item">Linux</div>
+                    <div class="skill-item">Windows</div>
+                    <div class="skill-item">Selenium</div>
+                    <div class="skill-item">Jira</div>
+                    <div class="skill-item">GitHub</div>
+                    <div class="skill-item">GitLab</div>
+                </div>
             </div>
         </section>
+
+        <section id="easter-egg">
+            <h2>Interactive JavaScript Easter Egg</h2>
+            <p id="easter-egg-msg">Click on the "JavaScript" skill to reveal a fun game!</p>
+        </section>
     </main>
+
     <footer>
         <p>&copy; 2024 Nicholas Paulick | All Rights Reserved</p>
     </footer>
+    <script src="js/easter-egg.js"></script>
 </body>
 </html>

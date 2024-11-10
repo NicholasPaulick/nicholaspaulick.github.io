@@ -74,3 +74,19 @@ document.getElementById('color-change-btn').addEventListener('click', function()
     currentColorIndex = (currentColorIndex + 1) % colors.length;
     document.body.style.backgroundImage = colors[currentColorIndex];
 });
+
+
+// Easter Egg for JavaScript skill
+document.addEventListener('DOMContentLoaded', () => {
+    const jsSkill = document.getElementById('javascript-skill');
+    const msgElement = document.getElementById('easter-egg-msg');
+
+    jsSkill.addEventListener('click', () => {
+        msgElement.innerHTML = '🎉 Surprise! Click the button below to play Tic-Tac-Toe! 🎮';
+        msgElement.innerHTML += '<button id="play-game-btn">Play Game</button>';
+
+        document.getElementById('play-game-btn').addEventListener('click', () => {
+            window.location.href = "tic-tac-toe.html"; // Redirect to a tic-tac-toe game
+        });
+    });
+});
