@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website-notice>
+    <metadata>
+        <author>Nicholas Paulick</author>
+        <last-updated>2024</last-updated>
+        <purpose>Personal Website Notice</purpose>
+    </metadata>
+    
+    <visitor-greeting>
+        <message>Welcome, curious visitor!</message>
+        <fun-fact>Did you know that finding this XML file means you're quite observant?</fun-fact>
+    </visitor-greeting>
+    
+    <easter-eggs>
+        <egg id="1">You've found secret document #42</egg>
+        <egg id="2">This website contains exactly 3.14159 secrets</egg>
+        <egg id="3">The answer is always "maybe"</egg>
+    </easter-eggs>
+    
+    <random-quote>
+        <text>Code is like humor. When you have to explain it, it's bad.</text>
+        <author>Cory House</author>
+    </random-quote>
+</website-notice>
